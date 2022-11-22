@@ -34,9 +34,6 @@ genfscon proc /sensor/als_cali                        u:object_r:vendor_proc_opl
 genfscon proc /sensor/pressure_cali                   u:object_r:vendor_proc_eng_cali_file:s0
 genfscon sysfs /devices/platform/soc/soc:sensor_fb    u:object_r:vendor_sysfs_sensor_fb:s0
 
-# UFS
-genfscon sysfs /devices/platform/soc/1d84000.ufshc/clkgate_enable               u:object_r:vendor_sysfs_scsi_host:s0
-
 # Ultrasound
 genfscon proc /ultrasound    u:object_r:vendor_proc_ultrasound:s0
 
